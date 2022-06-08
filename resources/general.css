@@ -1,0 +1,84 @@
+.menuLetter {
+  color: #002738;
+  font-size: larger;
+  margin-left: 3px;
+}
+/*
+#divHome {
+  background-image: url("http://castellumheadhunter.com/wp-content/uploads/2020/12/HEADER_CASTELLUM_1900x960.jpg");
+  padding: 200px;
+  background-size: 100% 100%;
+}
+*/
+.textMainHeader {
+  color: #0c0c0ca8;
+}
+
+#speech_1 {
+}
+#speech_2 {
+  font-size: small;
+}
+footer {
+  background-color: #002738;
+  color: aliceblue;
+}
+
+#divFooter {
+  margin-top: 30px;
+  padding: 60px 0px;
+}
+
+body {
+  background-color: #fff;
+}
+/* --------------------------------- sections ---------------------------------*/
+.sectionNosotros {
+  padding: 100px;
+}
+
+.sectionHome {
+  padding: 30px;
+}
+
+#secInicio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/hire_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  background-size: cover;
+}
+
+#btnVacantes {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#contentInicio {
+  padding: 300px 0%;
+}
+
+.menuImens {
+  color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.paddingbt {
+  padding: 0% 4px;
+}
+
+.title {
+  font-size: 60px;
+  color: #002738;
+  margin-bottom: 40px;
+}
+
+.shadowCard {
+  -webkit-box-shadow: 13px 13px 0px 1px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 13px 13px 0px 1px rgba(0, 0, 0, 0.16);
+  box-shadow: 13px 13px 0px 1px rgba(0, 0, 0, 0.16);
+}
