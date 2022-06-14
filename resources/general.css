@@ -19,7 +19,7 @@
 #speech_2 {
   font-size: small;
 }
-footer {
+#footer {
   background-color: #002738;
   color: aliceblue;
 }
@@ -35,6 +35,10 @@ body {
 /* --------------------------------- sections ---------------------------------*/
 .sectionNosotros {
   padding: 100px;
+}
+
+.paddingsection {
+  padding: 60px;
 }
 
 .sectionHome {
@@ -81,4 +85,23 @@ body {
   -webkit-box-shadow: 13px 13px 0px 1px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 13px 13px 0px 1px rgba(0, 0, 0, 0.16);
   box-shadow: 13px 13px 0px 1px rgba(0, 0, 0, 0.16);
+}
+
+.linkFooter {
+}
+
+.linkWatss {
+  text-decoration: none;
+  color: #25d366;
+}
+
+.linkFace {
+  text-decoration: none;
+}
+
+.customerImage {
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+  margin-bottom: 15px;
 }

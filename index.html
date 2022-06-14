@@ -2,31 +2,29 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css" >
-        <link rel="stylesheet" href="resources/bootstrap/js/bootstrap.bundle.min.js" >        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="resources/bootstrap/js/bootstrap.bundle.min.js" >
         <link rel="stylesheet" href="resources/general.css" >
-
-
         <script src="https://kit.fontawesome.com/4225004423.js" crossorigin="anonymous"></script>
         <title>Castellum Head Hunter</title>
 
     </head>
-    <body oncontextmenu='return false' class='snippet-body'>
-
-  
-       
+    <body>
         <section  id="secInicio" class="text-center sectionHome" >
             <head style="position:fixed;">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-xs-3 text-start">
+                        <img src="resources/images/singleLogoCastellum.png" width="30px" >
                         <span id="logo" class="paddingbt" >CASTELLUM </span>    
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-9 text-end paddingbt">
-                        <a class="menuImens" href="#">Inicio</a>
-                        <a class="menuImens" href="#">Nosotros</a>
-                        <a class="menuImens" href="#">Servicios</a>
-                        <a class="menuImens" href="#">Clientes</a>
-                        <a class="menuImens" href="#">Contacto</a>                        
+                        <a href="#secInicio" class="menuImens" href="#">Inicio</a>
+                        <a href="#secNosotros" class="menuImens" href="#">Nosotros</a>
+                        <a href="#secServicios" class="menuImens" href="#">Servicios</a>
+                        <a href="#secClientes" class="menuImens" href="#">Clientes</a>
+                        <a href="#secContacto" class="menuImens" href="#">Contacto</a>                        
                     </div>                                        
                 </div>                
             </head>
@@ -57,6 +55,8 @@
             <div class="text-center">
                 <h1 class="title">Nuestros servicios</h1>
             </div>
+        
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -65,7 +65,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Reclutamiento y Selección de Personal</h5>
                               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              
                             </div>
                           </div>
                     </div>
@@ -75,7 +75,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Estudio socio económico</h5>
                               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              
                             </div>
                           </div>
                     </div>
@@ -85,7 +85,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Análisis de psicometrías</h5>
                               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              
                             </div>
                           </div>
                     </div>                                
@@ -94,13 +94,54 @@
 
 
         </section>
-        <section id="secClientes" >
+        <section id="secClientes" class="paddingsection" >
             <div class="text-center">
                 <h1 class="title">Nuestros clientes</h1>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width=110px">
+                    </div>
+                    <div class="col-lg-2">
+                        
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
+                    </div>
+                    <div class="col-lg-2">
+                        
+                    </div>                
+                    <div class="col-lg-2">
+                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
+                    </div>                                            
+                    <div class="col-lg-2">
 
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-2">
+                        
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
+                    </div>
+                    <div class="col-lg-2">
+                        
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
+                    </div>   
+                    <div class="col-lg-2">
+                        
+                    </div>   
+                    <div class="col-lg-2">
+                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
+                    </div>                                                                                                    
+                </div>
             </div>
         </section> 
-        <section id="secVacantes" >
+        <hr>
+        <section id="secVacantes" class="paddingsection" style="background-color: antiquewhite;" >
             <div class="container">
                 <h3 class="title">Ofertas destacadas</h3>
                 <hr>
@@ -142,21 +183,26 @@
                 </div>
             </div>
 
-        </section>        
+        </section>    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.041484164752!2d-100.37061798500179!3d25.669919518658475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bdeca38fd101%3A0x7f72682809831f2d!2sCalz%20San%20Pedro%20250%2C%20Del%20Valle%2C%2064660%20San%20Pedro%20Garza%20Garc%C3%ADa%2C%20N.L.!5e0!3m2!1sen!2smx!4v1655164241209!5m2!1sen!2smx" width="100%" height="400" ></iframe>    
         <footer class="" id="footer" >
             <div class="container" id="divFooter" >
                 <div class="row">
-                    <div class="col-lg-4">
-                        <img src="resources/images/Logo-Castellum.png" >
+                    <div class="col-lg-4 text-center">
+                        <img src="resources/images/singleLogoCastellum.png" width="60px" > 
+                        <h3>CASTELLUM</h3>
+                        <p>HEAD HUNTING</p>
                     </div>
                     <div class="col-lg-4">
                         <h5><i class="fas fa-caret-right"></i> Contacto</h5>                        
-                        <p><i class="fas fa-phone"></i> 81 1626 3974</p>                           
+                        <hr>
+                        <p><i class="fas fa-phone"></i> 81 1526 9496</p>                           
                     </div>
                     <div class="col-lg-4">
                         <h5><i class="fas fa-caret-right"></i> Redes sociales</h5>
-                        <a  href="https://api.whatsapp.com/send?phone=" target="blank_"><i class="fab fa-whatsapp"></i> WhatsApp</a><br/>
-                        <a href="https://m.facebook.com/" target="blank_"><i class="fab fa-facebook-square"></i> Facebook</a>                        
+                        <hr>
+                        <a class="linkWatss" href="https://api.whatsapp.com/send?phone=" target="blank_"><i class="fab fa-whatsapp"></i> WhatsApp</a><br/>
+                        <a class="linkFace" href="https://m.facebook.com/" target="blank_"><i class="fab fa-facebook-square"></i> Facebook</a>                        
                     </div>                                        
                 </div>
             </div>
