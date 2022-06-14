@@ -15,16 +15,16 @@
         <section  id="secInicio" class="text-center sectionHome" >
             <head style="position:fixed;">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-xs-3 text-start">
+                    <div id="logoMenu" class="col-lg-3 col-md-3 col-xs-3 ">
                         <img src="resources/images/singleLogoCastellum.png" width="40px" >
                         <span id="logo" class="paddingbt" >CASTELLUM </span>    
                     </div>
-                    <div class="col-lg-9 col-md-9 col-xs-9 text-end paddingbt">
-                        <a href="#secInicio" class="menuImens" href="#">Inicio</a>
-                        <a href="#secNosotros" class="menuImens" href="#">Nosotros</a>
-                        <a href="#secServicios" class="menuImens" href="#">Servicios</a>
-                        <a href="#secClientes" class="menuImens" href="#">Clientes</a>
-                        <a href="#secContacto" class="menuImens" href="#">Contacto</a>                        
+                    <div id="itemsMenu" class="col-lg-9 col-md-9 col-xs-9 paddingbt">
+                        <a href="#secInicio" class="menuImens" >Inicio</a>
+                        <a href="#secNosotros" class="menuImens" >Nosotros</a>
+                        <a href="#secServicios" class="menuImens">Servicios</a>
+                        <a href="#secClientes" class="menuImens" >Clientes</a>
+                        <a href="#secContacto" class="menuImens">Contacto</a>                        
                     </div>                                        
                 </div>  
                 <hr>              
@@ -116,47 +116,39 @@
         <section id="secClientes" class="paddingsection" >
             <div class="text-center">
                 <h1 class="title">Nuestros clientes</h1>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width=110px">
-                    </div>
-                    <div class="col-lg-2">
-                        
-                    </div>
-                    <div class="col-lg-2">
-                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
-                    </div>
-                    <div class="col-lg-2">
-                        
-                    </div>                
-                    <div class="col-lg-2">
-                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
-                    </div>                                            
-                    <div class="col-lg-2">
+                <div class="table-resposive">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px"></td>
+                                <td></td>
+                                <td><img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px"></td>
+                                <td></td>
+                                <td><img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px"></td>
+                                <td></td>
+                                <td><img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px"></td>
+                                <td></td>
+                                <td><img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px"></td>
+                            </tr>                    
+                        </tbody>
+                    </table>
+                </div>
 
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-2">
-                        
-                    </div>
-                    <div class="col-lg-2">
-                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
-                    </div>
-                    <div class="col-lg-2">
-                        
-                    </div>
-                    <div class="col-lg-2">
-                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
-                    </div>   
-                    <div class="col-lg-2">
-                        
-                    </div>   
-                    <div class="col-lg-2">
-                        <img class="customerImage img-fluid" src="https://impulsoregio.files.wordpress.com/2014/09/softtek1.jpg" width="110px">
-                    </div>                                                                                                    
-                </div>
             </div>
         </section> 
         
@@ -177,7 +169,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-lg-8">
-                            <form id="formularioContacto" style="padding: 10% 10%;">
+                            <form id="formularioContacto" style="padding: 5% 10%;">
                                 <span>Nombre</span>
                                 <input class="form-control">
                                 <span>Correo</span>
@@ -190,14 +182,14 @@
                                 <span>Comentarios</span>
                                 <textarea class="form-control"></textarea>
                                 <div class="text-end">
-                                    <button style="margin-top: 15px; margin-bottom:15px ;" class="btn btn-success">Enviar</button>
+                                    <button style="border-color: #FF5733; background-color: #FF5733; margin-top: 15px; margin-bottom:15px ;" class="btn btn-success"><i class="far fa-paper-plane"></i> Enviar</button>
                                 </div>
                                 
         
                             </form>
                         </div>
                         <div class="col-lg-4 text-center">
-                            <img  src="resources/images/contact.jpg" class="img-fluid" width="280px" style="margin-bottom: 15px;" ><br>
+                            <img  src="resources/images/contact.svg" class="img-fluid" width="280px" style="margin-bottom: 25px; margin-top: 90px;" ><br>
                             <a class="btn btn-outline-success btn-lg btn-block" href="https://api.whatsapp.com/send?phone=528115269496" target="blank_"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                         </div>                
                     </div>

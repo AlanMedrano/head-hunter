@@ -74,6 +74,10 @@ body {
   font-size: larger;
 }
 
+.menuImens:hover {
+  color: #ff5733;
+}
+
 .paddingbt {
   padding: 0% 4px;
 }
@@ -121,10 +125,28 @@ body {
 
 #secVacantes {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 #secContacto {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 180px;
+}
+
+#logoMenu {
+  text-align: left !important;
+}
+
+#itemsMenu {
+  text-align: right !important;
+}
+
+@media (max-width: 768px) {
+  #logoMenu {
+    text-align: center !important;
+  }
+
+  #itemsMenu {
+    text-align: center !important;
+  }
 }
