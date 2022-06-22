@@ -45,7 +45,7 @@ body {
 }
 
 .sectionHome {
-  padding: 30px;
+  padding: 20px;
 }
 
 #secInicio {
@@ -68,7 +68,7 @@ body {
 }
 
 .menuImens {
-  color: #fff;
+  color: black;
   margin-left: 8px;
   margin-right: 8px;
   text-decoration: none;
@@ -77,10 +77,16 @@ body {
 
 .menuImens:hover {
   color: #ff5733;
+  text-decoration: solid underline 4px;
 }
 
 .paddingbt {
-  padding: 0% 4px;
+  /*padding: 0% 4px;*/
+  padding-top: 14px;
+}
+
+.changeColor:hover {
+  color: #ff5733;
 }
 
 .title {
@@ -111,6 +117,10 @@ body {
   -webkit-filter: grayscale(1); /* Webkit */
   filter: gray; /* IE6-9 */
   filter: grayscale(1); /* W3C */
+  margin-bottom: 15px;
+}
+
+.customerImage:hover {
   margin-bottom: 15px;
 }
 
