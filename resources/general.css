@@ -67,7 +67,7 @@ body {
   padding: 300px 0%;
 }
 
-.menuImens {
+.menuItems {
   color: black;
   margin-left: 8px;
   margin-right: 8px;
@@ -75,7 +75,7 @@ body {
   font-size: larger;
 }
 
-.menuImens:hover {
+.menuItems:hover {
   color: #ff5733;
   text-decoration: solid underline 4px;
 }
