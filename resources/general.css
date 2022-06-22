@@ -40,7 +40,8 @@ body {
 }
 
 .paddingsection {
-  padding: 60px;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
 
 .sectionHome {
@@ -149,4 +150,8 @@ body {
   #itemsMenu {
     text-align: center !important;
   }
+}
+
+.colorGreyBackground {
+  background-color: #eaecee;
 }
