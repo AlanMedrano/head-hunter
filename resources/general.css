@@ -26,7 +26,8 @@
 
 #divFooter {
   margin-top: 30px;
-  padding: 80px 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 body {
@@ -163,4 +164,8 @@ body {
 
 .colorGreyBackground {
   background-color: #eaecee;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
 }
